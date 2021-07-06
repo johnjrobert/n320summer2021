@@ -8,7 +8,13 @@ class RainDrop {
 
   display() {
     fill(this.color);
+    // this.x = random(800);
     this.y++;
+
+    if (this.y > 500) {
+      this.y = 1;
+      this.x = random(800);
+    }
     circle(this.x, this.y, this.radius);
   }
 }
