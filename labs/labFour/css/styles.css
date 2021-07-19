@@ -1,0 +1,25 @@
+.hello {
+  color: blue;
+}
+
+#topBar {
+  background-color: navy;
+  height: 100px;
+  width: 100%;
+}
+
+#gallery {
+  margin: 0 auto;
+  height: 600px;
+  width: 1400px;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.galleryBox {
+  height: 270px;
+  width: 400px;
+  background-color: purple;
+}
