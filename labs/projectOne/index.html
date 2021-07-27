@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project One: War!</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>WAR!</h1>
+    <h2>Click on Player Card to Begin!</h2>
+
+    <div class="gameBoard">
+      <div class="playerOne">
+        <h1>Player One</h1>
+        <p id="playerReadOut"></p>
+      </div>
+      <svg id="gameZone" width="800" height="375">
+        <rect y="120" x="100" id="playerCard" />
+        <rect y="120" x="475" id="computerCard" />
+      </svg>
+      <div class="computer">
+        <h1>Computer</h1>
+        <p id="computerReadOut"></p>
+      </div>
+    </div>
+    <h1>Score:</h1>
+    <div class="score">
+      
+      <p id="pScore"></p>
+      <p id="cScore"></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/deck.js"></script>
+    <!-- <script src="js/players.js"></script> -->
+    <script src="js/rules.js"></script>
+
+    <script src="js/projectOne.js"></script>
+  </body>
+</html>

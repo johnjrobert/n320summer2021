@@ -1,0 +1,107 @@
+@keyframes playerCardChange {
+  from {
+    fill: #900c3f;
+  }
+
+  to {
+    fill: gold;
+  }
+}
+
+body {
+  background-color: #581845;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #097969;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #097969;
+}
+
+.playerOne {
+  width: 500px;
+}
+
+.computer {
+  width: 500px;
+}
+
+#gameZone {
+  background-color: #097969;
+  margin: 0 auto;
+  display: flex;
+  width: 800px;
+}
+
+.gameBoard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#playerCard {
+  height: 170px;
+  width: 125px;
+  fill: #900c3f;
+  animation-name: playerCardChange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#computerCard {
+  height: 170px;
+  width: 125px;
+  fill: #900c3f;
+}
+
+#playerReadOut {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #097969;
+  font-size: 25px;
+}
+
+#computerReadOut {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #097969;
+  font-size: 25px;
+}
+
+.score {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  /* background-color: fuchsia; */
+}
+
+#pScore {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #097969;
+  font-size: 25px;
+  padding-right: 50px;
+}
+
+#cScore {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #097969;
+  font-size: 25px;
+}
